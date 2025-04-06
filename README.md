@@ -57,7 +57,7 @@ Performs image and signature comparison using a configurable tolerance level to 
 Detects **unique text elements that are overlapped by images** (i.e., overshadowed) in only one of the two PDFs.
 
 #### Use Case:
-To detect if a text like _"Shreyash Retail Private Limited"_ is covered by an image (such as a signature or stamp) in one PDF but not the other.
+To detect if a any text is covered by an image (such as a signature or stamp) in one PDF but not the other.
 
 #### Parameters:
 - `pdf1`: First PDF file (multipart/form-data)
