@@ -65,7 +65,7 @@ To detect if a any text is covered by an image (such as a signature or stamp) in
 
 ---
 ### 7 **Compare PDF Formatting**
-**POST** `/api/pdf/format/compare`  
+**POST** `/format/compare`  
 Detects whether **two PDF files have identical or differing text formatting**, including font name, size, and position.
 
 #### Use Case:
