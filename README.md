@@ -64,6 +64,22 @@ To detect if a any text is covered by an image (such as a signature or stamp) in
 - `pdf2`: Second PDF file (multipart/form-data)
 
 ---
+### 7 **Compare PDF Formatting**
+**POST** `/api/pdf/format/compare`  
+Detects whether **two PDF files have identical or differing text formatting**, including font name, size, and position.
+
+#### Use Case:
+To verify if the visual **text formatting** (e.g., font styles, sizes, alignment) remains consistent across two versions of a PDF.
+
+#### Parameters:
+- `pdf1`: First PDF file (`multipart/form-data`)
+- `pdf2`: Second PDF file (`multipart/form-data`)
+
+#### Response:
+- Returns a boolean:
+  - `true` → formatting is the same (within defined tolerance)
+  - `false` → formatting differs
+
 
 ## 📥 Request Format
 
